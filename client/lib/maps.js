@@ -55,6 +55,7 @@ Template.maps.events({
 				"end_time": "17:49"
 			}},
 			function(err, result) {
+				Router.go("/matches");
 		  		if (!err) {
 		  			console.log(result);
 		  		} else {
