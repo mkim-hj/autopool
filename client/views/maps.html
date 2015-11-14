@@ -1,16 +1,20 @@
 <template name="maps">
-	<div class="maps-container">
-		<div class="map-container">
-		{{> googleMap name="exampleMap" options=exampleMapOptions}}
-		</div>
-		<div class="form-group">
-		  <label for="start-location">Start Location</label>
-		  <input type="text" class="form-control" id="start-location">
-		</div>
-		<div class="form-group">
-		  <label for="end-location">End Location</label>
-		  <input type="text" class="form-control" id="end-location">
-		</div>
-		<button class="confirm-button">CONFIRM</button>
+	<div class="maps-container row">
+        <div class="col-sm-4 col-sm-offset-4">
+		    <div class="map-container">
+		        {{> googleMap name="exampleMap" options=exampleMapOptions}}
+		    </div>
+		    <div class="form-group">
+		        <label for="start-location">Start Location</label>
+		        <input type="text" class="form-control" id="start-location">
+		    </div>
+		    <div class="form-group">
+		        <label for="end-location">End Location</label>
+		        <input type="text" class="form-control" id="end-location">
+		    </div>
+            <div class="text-center">
+		        <button class="btn btn-primary btn-lg">Confirm</button>
+            </div>
+        </div>
 	</div>
 </template>
