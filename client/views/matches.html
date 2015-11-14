@@ -1,0 +1,32 @@
+<template name="matches">
+	<div class="row matches-contianer">
+		<h1 class="text-center">
+			You have {{users.length}} Matches!
+		</h1>
+		{{#each users}}
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-4">
+					<div class="well">
+						<div class="row">
+							<div class="col-xs-4">
+								<img class="img-rounded img-responsive" src="{{image}}">
+							</div>
+							<div class="col-xs-8">
+								<h3>{{name}}</h3>
+								<h6>{{id}}</h6>
+								<a>View their commute</a>
+								<div>
+									<h3>
+										<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+										<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+									</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+
+</template>
