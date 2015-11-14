@@ -43,3 +43,40 @@ time, mark, audio, video {
 .tag-line {
 	font-size: 1.5em;
 }
+
+.btn-wide {
+	width: 100%;
+}
+
+.login-row {
+	margin-top: 100px;
+}
+
+.login-main-image {
+	// background-image: url("img/login-car.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+}
+
+.login-form-well {
+	background-color: white;
+	padding: 40px;
+}
+
+.login-form-title {
+	padding-bottom: 15px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.navbar-logo {
+	height: 80px;	
+	padding: 5px 0px 5px 0px;
+}
+
